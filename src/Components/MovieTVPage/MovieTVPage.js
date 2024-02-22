@@ -44,7 +44,7 @@ const MovieTVPage = () => {
                 }
             </div>
             <div className="MainContent">
-            {movie.results?.length===0 && <h1>NOTHING HERE GETAFAKADERHER</h1> } 
+            {movie.results?.length===0 && <h1>Nothing was found</h1> } 
                 <Pagination page={movie.page} total_pages={movie.total_pages} />
                 <div className="Contetn">
                     {
