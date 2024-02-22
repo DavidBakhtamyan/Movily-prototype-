@@ -1,0 +1,35 @@
+.FilmCard{
+    width: 200px;
+    height: fit-content;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 200px;
+    gap: 2px;
+}
+.FilmCard .img-rating{
+    display: flex;
+    flex-direction: column;
+    min-height: 290px;
+}
+.FilmCard .film-card-img{
+    border-radius: 10px;
+    height: 300px;
+    object-fit: cover;
+}
+.FilmCard .film-card-rating{
+    background-color: #fec72a;
+    width: 70px;
+    text-align: center;
+    padding: 5px 8px ;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-left: calc(100% - 50px);
+}
+.FilmCard .film-card-year-category{
+    color: #009970;
+}
+.FilmCard .film-card-title{
+    color: white;
+    font-weight: 400;
+}

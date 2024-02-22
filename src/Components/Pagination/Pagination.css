@@ -1,0 +1,33 @@
+.PageBtns{
+    display: flex;
+    gap: 15px;
+}
+.PageBtns .btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    width: 35px;
+    aspect-ratio: 1;
+    color: white;
+    
+}
+.PageBtns .btn:hover{
+    border: 1px solid white;
+    box-shadow: 0px 0px 9px 1px white;
+}
+.PageBtns .ActiveBtn{
+    background-color: rgb(0, 102, 197) !important;
+    box-shadow: 0px 0px 11px 1px rgb(0, 102, 197);
+}
+.PageBtns .InactiveBtn{
+    color: gray;
+}
+.PageBtns .InactiveBtn:hover{
+    border: 1px solid rgb(102, 102, 102);
+    box-shadow: 0px 0px 11px 2px rgb(102, 102, 102);
+}

@@ -1,0 +1,79 @@
+.MovieBanner .MovieBannerImg{
+    position: absolute;
+    width: 99vw;
+    height: 100vh;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.MovieBannerContent .MovieBannerContentImg{
+    width:400px;
+    object-fit: scale-down;
+    border-radius: 5%;
+}
+.MovieBannerContainer{
+    width: 99vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.7);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.MovieBannerContainer .MovieBannerContent{
+    display: flex;
+    width: 1200px;
+    height: 600px;
+}
+.MovieInfo{
+    width: 800px;
+    height: inherit;
+    padding: 5px 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.MovieInfoContent{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.MovieYear{
+    font-size: 27px;
+}
+.StarSvg{
+    width: 30px;
+    aspect-ratio: 1;
+    fill: rgb(255, 213, 0);
+}
+.MovieBannerRating{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.MovieBannerRating p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.MovieOverview{
+    font-size: 17px;
+}
+.LearnMoreBtn{
+    background-color: var(--secondary);
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 3;
+}
